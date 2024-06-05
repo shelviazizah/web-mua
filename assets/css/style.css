@@ -1,0 +1,150 @@
+.navbar{
+    background-color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #10CB00;
+}
+
+.font-small{
+    font-size: small;
+}
+
+.font-extra-small{
+    font-size: x-small;
+}
+
+.bg-green {
+    background-color: #10CB00;
+}
+
+.bg-pink {
+    background-color: #FF9F9F;
+}
+
+.bg-pink-v2 {
+    background-color: #E1ACAC;
+}
+
+.bg-pink-v3 {
+    background-color: #A87676;
+}
+
+.bg-pink-v4 {
+    background-color: #E1ACAC;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-dark-pink{
+    color: #FF0080;
+}
+
+.outline-green {
+    outline: thin solid #10CB00;
+}
+
+.outline-pink {
+    outline: thin solid #FF9F9F;
+}
+
+.hover-green {
+    color: white; 
+    transition: color 0.3s ease;
+}
+
+.hover-green:hover {
+    color: #10CB00;
+}
+
+.hover-pink {
+    color: white; 
+    transition: color 0.3s ease;
+}
+
+.hover-pink:hover {
+    color: #FF9F9F;
+}
+
+.landing-page {
+    display: flex;
+    background-image: url('../img/bg-image.png');
+    min-height: 24em;
+    background-size: cover;
+    margin-top: 3.5em;
+}
+
+.landing-page-result {
+    display: flex;
+    min-height: 29em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.landing-page-package {
+    display: flex;
+    min-height: 20em;
+}
+
+.landing-page-testimoni {
+    display: flex;
+    min-height: 18em;
+}
+
+.landing-page-CTA {
+    display: flex;
+    height: 24em;
+}
+
+.footer {
+    display: flex;
+    min-height: 18em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.copyright {
+    min-height: 2em;
+    padding-left: 1em;
+}
+
+.img-woman {
+    max-width: 46%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex: 1;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#btn-login:hover {
+    color: #10CB00;
+    background-color: white;
+}
+
+#btn-booking:hover {
+    color: #FF9F9F;
+    background-color: white;
+}
+
+.col-content {
+    height: 100%;
+    flex: 1;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
