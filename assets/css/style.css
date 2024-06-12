@@ -33,6 +33,12 @@
 .text-white {
     color: white;
 }
+.text-dark-grey {
+    color: #686D76;
+}
+.text-green {
+    color: #10CB00;
+}
 
 .text-dark-pink{
     color: #FF0080;
@@ -77,12 +83,34 @@
     color: grey;
 }
 
+.container-custom {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    width: 100%;
+    min-width: 20em;
+}
+
 .navbar {
     background-color: white;
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .navbar-nav .nav-link:hover {
     color: #10CB00;
@@ -131,6 +159,18 @@
     padding-left: 4em;
     padding-right: 4em;
 }
+
+.profile {
+    display: flex;
+    min-height: 30em;
+    padding-top: 3.5em;
+}
+
+/* .profile-menu {
+    display: flex;
+    min-height: 10em;
+    justify-content: center;
+} */
 
 .footer {
     display: flex;

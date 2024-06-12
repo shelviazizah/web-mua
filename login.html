@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        body {
+            background-image: url('assets/img/bg-image.png');
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-position: center center;
+            min-height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-custom">
+        <div class="login-form flex-column pb-4">
+            <img src="../Project1/assets/img/logo.jpg" width="60px" height="60px" class="mt-4" style="border-radius: 50%;" alt="">
+            <h4 class="text-center fw-bold py-2">Masuk</h4>
+
+            <form>
+                <div class="mb-2">
+                  <label for="InputEmail" class="form-label fw-semibold text-dark-grey">Username</label>
+                  <input type="email" class="form-control font-small" id="exampleInputEmail" placeholder="example@mail.com" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-2">
+                  <label for="InputPassword" class="form-label fw-semibold text-dark-grey">Password</label>
+                  <input type="password" class="form-control font-small" placeholder="" id="InputPassword">
+                    <div class="d-flex justify-content-end mt-1">
+                        <span class="font-extra-small">Lupa Password? <a href="forget-pass.html" class="fw-bold text-green">Klik disini</a></span>
+                    </div>
+                </div>
+                <div class="mb-2 d-flex justify-content-center">
+                    <span class="font-small text-center">Belum punya akun? <a href="regist-acc.html" class="fw-bold text-green">Daftar sekarang</a></span>
+                </div>
+                <div class="d-flex justify-content-center py-3">
+                    <button type="submit" class="btn btn-sm bg-green fw-bold outline-green hover-green px-4">Masuk</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
