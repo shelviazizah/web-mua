@@ -116,6 +116,16 @@
     color: #10CB00;
 }
 
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2em;
+}
+
+.navbar-nav .btn-login {
+    margin-left: auto;
+}
+
 .landing-page {
     display: flex;
     background-image: url('../img/bg-image.png');
@@ -165,12 +175,6 @@
     min-height: 30em;
     padding-top: 3.5em;
 }
-
-/* .profile-menu {
-    display: flex;
-    min-height: 10em;
-    justify-content: center;
-} */
 
 .footer {
     display: flex;
@@ -227,7 +231,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem; /* Optional: jarak antar elemen card */
+    gap: 1rem;
 }
 
 .modal-dialog-centered {
@@ -242,4 +246,19 @@
     height: -moz-min-content;
     height: min-content;
     content: "";
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        margin-left: 0;
+        margin-right: 0;
+        gap: 0.2em;
+        flex-direction: column;
+    }
+    .navbar-nav .btn-login {
+        margin-left: 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
 }
