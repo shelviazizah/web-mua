@@ -156,7 +156,7 @@
     height: 24em;
 }
 
-.our-service {
+.our-service, .galery {
     display: flex;
     min-height: min-content;
     margin-top: 3.5em;
@@ -165,7 +165,7 @@
     padding-bottom: 3.5em;
 }
 
-.our-service .container{
+.our-service .container, .galery .container {
     padding-left: 4em;
     padding-right: 4em;
 }
